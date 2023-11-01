@@ -7,22 +7,31 @@ body{
 }
 .nav-ul li{
   display: inline-block;
-  /* display: flex; */
   padding: 20px;
 }
 .nav-ul li a{
     color: white;
     text-decoration: none;
- 
-   
-  
+    font-size: 20px;
    
 }
+.logevents img{
+  width: 100px;
+  height: 100px;
+  /* border-radius: 100% solid #8e9c96; */
+  margin-left: 20px;
+  padding: 10px;
+  border: 5px solid  #8e9c96;
+  border-radius: 50%;
+}
 .Navebar{
-  height: 90px; 
+  height: 100px; 
   background-color: #8e9c96;
   position: fixed;
   width: 100%;
+  /* border: 5px solid rebeccapurple; */
+  display: flex;
+  justify-content: space-between;
 }
 .contactusform{
   background-color: #282c34;
@@ -30,14 +39,7 @@ body{
 }
 
 
-.nav-ul {
-  padding: 5px;
-  margin: 0;
- 
-  display: flex;
-  justify-content: end;
- 
-}
+
 .inputBox{
   margin-left: 30%;
   display: block;
@@ -98,21 +100,35 @@ body{
 
 
 /* ************homepagestyle is here************* */
-.homepage{
+/* .homepage{
  
-  background: url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZXZlbnQlMjBtYW5hZ2VtZW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+  
   background-position: cover;
+  background-image: url("https://pos.closetor.com/uploads/dress/PC_00186_rb27.jpg");
+
   width: 100%;
   height: 90vh;
   padding-top: 90px;
+  background-color: #383534;
+ 
+} */
+.homepage {
+  background-image: linear-gradient(rgba(56, 53, 52, 0.5), rgba(56, 53, 52, 0.5)), url("https://pos.closetor.com/uploads/dress/PC_00186_rb27.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding-top: 90px;
+  background-color: #383534;
 }
+
 
 .Homepage p{
   color: white;
 }
 .check{
   color: aqua;
-  font-size: 55px;
+  font-size: 75px;
   text-align: center;
 }
 
@@ -120,13 +136,12 @@ body{
 
 .homepageText{
   color: white;
+  color: aqua;
   text-align: center;
-  font-size: larger;
+  font-size: 50px;
 }
 
-.d-block{
-  height: 100vh;
-}
+
 
 
 .aboutUs{
@@ -135,10 +150,12 @@ body{
   background-color: #8e9c96;
   display: flex;
   justify-content: space-around;
+  
 }
 .aboutUsText{
+
   width: 40%;
-  padding-top: 40px;
+  padding-top: 150px;
   
 }
 
@@ -148,7 +165,7 @@ body{
 }
 
 .aboutImage{
-  padding-top: 40px;
+  padding-top: 150px;
 }
 
 .contactusform{
@@ -156,4 +173,29 @@ body{
 }
 
 
+.ContactusForm{
+  background-color: #282c34;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+#contactme{
+  width: 50%;
+  height: 60px;
+  margin-top: 10px;
+}
 
+.check{
+  margin-top: 200px;
+}
+
+.footerEvent{
+  height: 40vh;
+  background-color: rgb(11,33,73);
+}
+
+/* .logevents {
+  border: 2px solid red;
+  width: 5%;
+  margin-top: 40px;
+} */
